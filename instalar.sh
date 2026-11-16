@@ -2,11 +2,11 @@
 # Instala o actualiza MovWatch en Mac o en Linux compilándolo desde una rama del repositorio
 # (main por defecto). Es el equivalente de instalar.ps1.
 #
-#   git clone https://github.com/evilrender23/MovWatch
+#   git clone https://github.com/oz-x/MovWatch
 #   bash MovWatch/instalar.sh [--repo URL|RUTA] [--rama main] [--destino CARPETA] [--bin CARPETA]
 #
 # O en una línea:
-#   curl -fsSL https://raw.githubusercontent.com/evilrender23/MovWatch/main/instalar.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/oz-x/MovWatch/main/instalar.sh | bash
 #
 # Desde un clon, sin --repo, instala desde el origin de ese clon.
 #
@@ -40,7 +40,7 @@ case "$(uname -s)" in
     *) echo "Este instalador es para Mac y Linux; en Windows, usa instalar.ps1." >&2; exit 2 ;;
 esac
 
-REPO='https://github.com/evilrender23/MovWatch'
+REPO='https://github.com/oz-x/MovWatch'
 RAMA='main'
 if $LINUX; then DESTINO="${XDG_DATA_HOME:-$HOME/.local/share}/MovWatch"; else DESTINO="$HOME/Library/Application Support/MovWatch"; fi
 BIN="$HOME/.local/bin"

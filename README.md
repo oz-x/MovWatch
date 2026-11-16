@@ -59,12 +59,12 @@ Igual que Anime Watcher: compila desde `main` y se actualiza sola.
 
 ```sh
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/evilrender23/MovWatch/main/instalar.sh | bash
+curl -fsSL https://raw.githubusercontent.com/oz-x/MovWatch/main/instalar.sh | bash
 ```
 
 ```powershell
 # Windows
-irm https://raw.githubusercontent.com/evilrender23/MovWatch/main/instalar.ps1 | iex
+irm https://raw.githubusercontent.com/oz-x/MovWatch/main/instalar.ps1 | iex
 ```
 
 ## Desarrollo
