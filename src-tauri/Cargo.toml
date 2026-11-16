@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "MovWatch: películas y series por torrent con subtítulos, con interfaz gráfica para Windows, macOS y Linux. Basado en torrodle."
 edition = "2024"
 license = "MIT"
-repository = "https://github.com/evilrender23/MovWatch"
+repository = "https://github.com/oz-x/MovWatch"
 
 [build-dependencies]
 tauri-build = { version = "2", features = [] }

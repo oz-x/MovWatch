@@ -30,7 +30,7 @@ use tauri::{AppHandle, Emitter};
 
 const RAMA: &str = "main";
 /// Repositorio del que salen los releases.
-const REPO_RELEASES: &str = "evilrender23/MovWatch";
+const REPO_RELEASES: &str = "oz-x/MovWatch";
 const INSTALADOR: &str = if cfg!(windows) { "instalar.ps1" } else { "instalar.sh" };
 const LIMITE_GIT: Duration = Duration::from_secs(45);
 const PRIMERA_COMPROBACION: Duration = Duration::from_secs(60);
